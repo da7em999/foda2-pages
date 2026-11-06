@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <text x="8" y="64" font-family="'Rockwell', 'Courier New', Georgia, serif" font-size="42" font-weight="bold" fill="#2D3134" letter-spacing="1">DAHEM</text>
+  <defs>
+    <clipPath id="l-clip"><circle cx="200" cy="48" r="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#l-clip)">
+    <circle cx="200" cy="48" r="28" fill="#FFB300"/>
+    <path d="M 168 53 Q 180 44 200 50 Q 215 55 232 47 L 232 80 L 168 80 Z" fill="#18C3F8" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 168 58 Q 180 51 202 58 Q 215 63 232 57 L 232 80 L 168 80 Z" fill="#18C3F8" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 168 64 Q 190 60 232 65 L 232 80 L 168 80 Z" fill="#18C3F8" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <text x="248" y="64" font-family="'Rockwell', 'Courier New', Georgia, serif" font-size="42" font-weight="bold" fill="#2D3134" letter-spacing="1">POS</text>
+</svg>

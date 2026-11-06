@@ -1,0 +1,1 @@
+import{r}from"./rolldown-runtime-NMqb_1LM.js";import{i as t}from"./vendor-query-CM2NjJf5.js";var e=r(t(),1);function o(r,t=300){const[o,s]=(0,e.useState)(r);return(0,e.useEffect)(()=>{const e=setTimeout(()=>s(r),t);return()=>clearTimeout(e)},[r,t]),o}export{o as t};

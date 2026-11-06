@@ -1,0 +1,1 @@
+function e(e,t,c){const n="\ufeff"+t.join(",")+"\n"+c.map(e=>e.map(e=>`"${e.replace(/"/g,'""')}"`).join(",")).join("\n"),o=new Blob([n],{type:"text/csv;charset=utf-8;"}),a=URL.createObjectURL(o),r=document.createElement("a");r.href=a,r.download=e.endsWith(".csv")?e:e+".csv",r.click(),URL.revokeObjectURL(a)}export{e as t};

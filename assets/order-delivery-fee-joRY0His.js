@@ -1,0 +1,1 @@
+var r=r=>Math.round(100*r)/100;function e(e){return r(e.reduce((r,e)=>r+(Number(e.price)||0)*(Number(e.qty)||0),0))}function t(e,t){if(!e||"delivery"!==e.orderType)return 0;const u=r((Number(e.total)||0)-(Number(e.tax)||0)-t);return u>.005?u:0}export{e as n,t};

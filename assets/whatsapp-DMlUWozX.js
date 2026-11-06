@@ -1,0 +1,1 @@
+function t(t){const s=String(t??"").replace(/\D/g,"");return s?s.startsWith("00")&&s.length>4?s.slice(2):s.length>11||s.startsWith("966")||s.startsWith("20")?s:10===s.length&&s.startsWith("05")?"966"+s.slice(1):11===s.length&&s.startsWith("01")?"20"+s.slice(1):s:""}export{t};

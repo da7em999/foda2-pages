@@ -1,0 +1,1 @@
+function t(){let t=!1;return{tryBegin:()=>!t&&(t=!0,!0),end(){t=!1},isActive:()=>t}}export{t};
